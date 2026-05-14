@@ -43,7 +43,7 @@ export default function Header() {
             <Link
               key={key}
               href={NAV_HREFS[key]}
-              className="text-white/75 hover:text-gold text-sm font-bold tracking-wider uppercase font-body transition-colors"
+              className="text-white/75 hover:text-gold text-base font-bold tracking-wider uppercase font-body transition-colors"
             >
               {nav[key]}
             </Link>
@@ -84,7 +84,7 @@ export default function Header() {
             <Link
               key={key}
               href={NAV_HREFS[key]}
-              className="text-white/75 hover:text-gold text-sm font-bold tracking-wider uppercase font-body transition-colors"
+              className="text-white/75 hover:text-gold text-base font-bold tracking-wider uppercase font-body transition-colors"
               onClick={() => setOpen(false)}
             >
               {nav[key]}
