@@ -29,7 +29,7 @@ export default function About() {
         {/* Capability cards */}
         <div className="grid grid-cols-2 gap-4 md:pt-8">
           {x.cards.map((c) => (
-            <div key={c.stat} className="border-l-4 border-gold bg-white px-6 py-8 shadow-sm">
+            <div key={c.stat} className="border-l-4 border-gold bg-white px-6 py-8 shadow-sm flex flex-col justify-center min-h-[120px]">
               <div className="font-heading font-bold text-navy text-lg leading-snug mb-2">
                 {c.stat}
               </div>
