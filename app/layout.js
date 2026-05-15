@@ -21,6 +21,11 @@ export const metadata = {
   description:
     'PT. Uno Digital Teknologi delivers cloud infrastructure, AI/ML, enterprise integration, and cybersecurity solutions for Indonesian businesses.',
   keywords: 'cloud, AI, enterprise, digital transformation, Indonesia, Jakarta',
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: 'UNO Digital Teknologi',
     description: 'Transforming Business Through Digital Innovation',
