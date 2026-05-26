@@ -1,5 +1,14 @@
 import Link from 'next/link';
 
+const MSP_CARD = {
+  icon: '🏅',
+  title: 'Managed Service Provider (MSP)',
+  desc: 'Full operational ownership of your cloud environment — 24/7 monitoring, cost optimisation, security compliance, and managed migrations. We stay accountable after go-live.',
+  tags: ['24/7 Operations', 'CloudOps', 'FinOps', 'Compliance', 'SLA-Backed'],
+  href: '/solutions/managed-services',
+  featured: true,
+};
+
 const SOLUTIONS = [
   {
     icon: '☁',
@@ -68,21 +77,62 @@ export default function Solutions() {
 
       {/* Cards */}
       <section className="bg-cream py-20 px-8">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {SOLUTIONS.map((s) => (
-            <div key={s.title} className="bg-white border border-navy/8 p-8 flex flex-col hover:border-gold/50 transition-colors">
-              <div className="text-gold text-3xl mb-4">{s.icon}</div>
-              <h3 className="font-heading font-bold text-navy text-xl mb-3">{s.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed mb-5 flex-1 font-body">{s.desc}</p>
-              <div className="flex flex-wrap gap-2">
-                {s.tags.map((t) => (
-                  <span key={t} className="bg-gold/10 text-gold text-[11px] font-bold px-3 py-1 font-body">
-                    {t}
+        <div className="max-w-7xl mx-auto">
+
+          {/* MSP Featured Card */}
+          <div className="mb-8">
+            <Link href={MSP_CARD.href} className="block group">
+              <div className="bg-navy border-2 border-gold/40 p-8 flex flex-col md:flex-row md:items-center gap-6 hover:border-gold transition-colors">
+                <div className="flex-shrink-0">
+                  {/* Mini badge */}
+                  <div
+                    className="w-20 h-20 rounded-full flex items-center justify-center text-3xl"
+                    style={{ boxShadow: '0 0 0 2px #C9A84C, 0 0 20px rgba(201,168,76,0.25)' }}
+                  >
+                    {MSP_CARD.icon}
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center gap-3 mb-2">
+                    <h3 className="font-heading font-bold text-white text-2xl">{MSP_CARD.title}</h3>
+                    <span className="bg-gold text-navy text-[10px] font-bold px-2.5 py-1 tracking-widest font-body">FEATURED</span>
+                  </div>
+                  <p className="text-white/60 text-sm leading-relaxed mb-4 font-body max-w-2xl">{MSP_CARD.desc}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {MSP_CARD.tags.map((tag) => (
+                      <span key={tag} className="bg-gold/15 text-gold text-[11px] font-bold px-3 py-1 font-body">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex-shrink-0">
+                  <span className="text-gold text-sm font-bold font-body group-hover:underline">
+                    Learn more →
                   </span>
-                ))}
+                </div>
               </div>
-            </div>
-          ))}
+            </Link>
+          </div>
+
+          {/* Standard solution cards grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {SOLUTIONS.map((s) => (
+              <div key={s.title} className="bg-white border border-navy/8 p-8 flex flex-col hover:border-gold/50 transition-colors">
+                <div className="text-gold text-3xl mb-4">{s.icon}</div>
+                <h3 className="font-heading font-bold text-navy text-xl mb-3">{s.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed mb-5 flex-1 font-body">{s.desc}</p>
+                <div className="flex flex-wrap gap-2">
+                  {s.tags.map((t) => (
+                    <span key={t} className="bg-gold/10 text-gold text-[11px] font-bold px-3 py-1 font-body">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
         </div>
       </section>
 
