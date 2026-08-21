@@ -29,8 +29,8 @@ const REASONS = [
   },
   {
     icon: '💡',
-    title: 'Open Partner Ecosystem',
-    desc: 'Tencent Cloud\'s open ecosystem approach allows Uno Digitek to integrate best-of-breed solutions alongside the Tencent Cloud platform — no vendor lock-in for your enterprise.',
+    title: 'Strong Technology Foundation',
+    desc: 'Continuous investment in R&D, open-source collaboration, and cloud computing innovation — Tencent Cloud is one of the most actively developed enterprise cloud platforms globally.',
   },
 ];
 

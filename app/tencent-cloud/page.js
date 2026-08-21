@@ -75,8 +75,8 @@ const FAQS = [
     a: 'Tencent Cloud is the enterprise cloud division of Tencent — one of the world\'s largest technology companies. It provides IaaS, PaaS, and AI services across 26 global regions, serving enterprises in gaming, finance, media, government, and digital industries worldwide.',
   },
   {
-    q: 'Why should we use Tencent Cloud instead of AWS or Azure?',
-    a: 'Tencent Cloud offers strong APAC infrastructure, competitive pricing, and leading AI capabilities. It\'s particularly strong for enterprises requiring Asia-Pacific connectivity, media & video workloads, and AI integration. Uno Digitek evaluates the right platform for each client — Tencent Cloud is our current flagship partner for Indonesia.',
+    q: 'Why is Tencent Cloud the right choice for Indonesian enterprises?',
+    a: 'Tencent Cloud offers strong Asia-Pacific infrastructure, competitive pricing, and leading AI capabilities. It is particularly well-suited for enterprises requiring regional connectivity, media & video workloads, AI integration, and enterprise-grade security. With 26 global regions and APAC-first design, it delivers low latency and strong compliance coverage for Indonesian businesses.',
   },
   {
     q: 'What does Uno Digitek do as a Tencent Cloud Partner?',
