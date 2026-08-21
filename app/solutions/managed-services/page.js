@@ -68,7 +68,7 @@ export default function ManagedServicesPage() {
     <main>
 
       {/* ── Hero: Badge + Trust Stats ─────────────────────────────────────── */}
-      <section className="bg-navy pt-40 pb-24 px-8">
+      <section className="bg-navy pt-32 pb-12 px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
 
           {/* MSP Badge */}

@@ -63,13 +63,13 @@ export default function Solutions() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-navy pt-40 pb-20 px-8">
+      <section className="bg-navy pt-32 pb-12 px-8">
         <div className="max-w-7xl mx-auto">
           <span className="section-tag">WHAT WE DO</span>
-          <h1 className="font-heading font-bold text-white text-5xl mb-4 max-w-2xl leading-tight">
+          <h1 className="font-heading font-bold text-white text-4xl mb-3 max-w-2xl leading-tight">
             Our Solutions
           </h1>
-          <p className="text-white/60 text-lg max-w-xl font-body leading-relaxed">
+          <p className="text-white/60 text-base max-w-xl font-body leading-relaxed">
             End-to-end technology capabilities built for enterprise-scale requirements across Indonesian industries.
           </p>
         </div>

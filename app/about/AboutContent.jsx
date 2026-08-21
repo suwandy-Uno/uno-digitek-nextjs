@@ -10,7 +10,7 @@ export default function AboutContent() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-navy pt-40 pb-20 px-8">
+      <section className="bg-navy pt-32 pb-12 px-8">
         <div className="max-w-7xl mx-auto">
           <span className="section-tag">{x.hero.tag}</span>
           <h1 className="font-heading font-bold text-white text-5xl mb-4 max-w-2xl leading-tight">
