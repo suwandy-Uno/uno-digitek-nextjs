@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 import { useLang } from '@/lib/LanguageContext';
 import t from '@/lib/translations';
 
-const NAV_KEYS = ['solutions', 'services', 'industries', 'about', 'contact'];
-const NAV_HREFS = { solutions: '/solutions', services: '/services', industries: '/industries', about: '/about', contact: '/contact' };
+const NAV_KEYS = ['solutions', 'services', 'industries', 'partners', 'about', 'contact'];
+const NAV_HREFS = { solutions: '/solutions', services: '/services', industries: '/industries', partners: '/partners', about: '/about', contact: '/contact' };
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -43,7 +43,7 @@ export default function Header() {
             <Link
               key={key}
               href={NAV_HREFS[key]}
-              className="text-white/75 hover:text-gold text-base font-bold tracking-wider uppercase font-body transition-colors"
+              className="text-white/75 hover:text-gold text-lg font-bold tracking-wider uppercase font-body transition-colors"
             >
               {nav[key]}
             </Link>
@@ -84,7 +84,7 @@ export default function Header() {
             <Link
               key={key}
               href={NAV_HREFS[key]}
-              className="text-white/75 hover:text-gold text-base font-bold tracking-wider uppercase font-body transition-colors"
+              className="text-white/75 hover:text-gold text-lg font-bold tracking-wider uppercase font-body transition-colors"
               onClick={() => setOpen(false)}
             >
               {nav[key]}
