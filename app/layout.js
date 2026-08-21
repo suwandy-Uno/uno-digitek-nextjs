@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Providers from '@/components/Providers';
+import WhatsAppButton from '@/components/WhatsAppButton';
 import { Analytics } from '@vercel/analytics/next';
 
 const GA_ID = 'G-2EC2STZ8S2';
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <WhatsAppButton />
         </Providers>
         <Analytics />
 
