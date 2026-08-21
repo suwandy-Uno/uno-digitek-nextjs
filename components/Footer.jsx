@@ -87,7 +87,7 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-8 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-white/25 text-sm font-body">
-            © {new Date().getFullYear()} PT. Uno Digital Teknologi. {x.copyright}
+            © {new Date().getFullYear()} PT. Uno Digital Teknologi Nusantara. {x.copyright}
           </p>
           <p className="text-white/20 text-sm font-body">
             uno-digitek.com

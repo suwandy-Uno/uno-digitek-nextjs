@@ -24,7 +24,7 @@ const inter = Inter({
 export const metadata = {
   title: 'UNO Digital Teknologi — Enterprise Technology Solutions',
   description:
-    'PT. Uno Digital Teknologi delivers cloud infrastructure, AI/ML, enterprise integration, and cybersecurity solutions for Indonesian businesses.',
+    'PT. Uno Digital Teknologi Nusantara delivers cloud infrastructure, AI/ML, enterprise integration, and cybersecurity solutions for Indonesian businesses.',
   keywords: 'cloud, AI, enterprise, digital transformation, Indonesia, Jakarta',
   icons: {
     icon: '/favicon.png',
