@@ -17,10 +17,10 @@ export default function Contact() {
             {[
               {
                 icon: '📍',
-                lines: ['Citylofts Sudirman, RT.10/RW.11', 'Karet Tengsin, Tanah Abang', 'Central Jakarta City, Jakarta 10250'],
+                lines: ['Sahid Sudirman Residence, Office Building 2nd Floor,', 'Jl. Jend. Sudirman Kav. 86, Karet Tengsin,', 'Tanah Abang, Jakarta Pusat, 10220'],
               },
-              { icon: '📞', lines: ['+62 818 910 003'], href: 'tel:+62818910003' },
-              { icon: '✉',  lines: ['Suwandy@uno-digitek.com'], href: 'mailto:Suwandy@uno-digitek.com' },
+              { icon: '📞', lines: ['+62 815 825 3333'], href: 'tel:+628158253333' },
+              { icon: '✉',  lines: ['sales@uno-digitek.com'], href: 'mailto:sales@uno-digitek.com' },
             ].map((item) => (
               <div key={item.icon} className="flex items-start gap-4">
                 <div className="w-9 h-9 border-2 border-gold rounded-full flex items-center justify-center flex-shrink-0 text-gold text-sm">

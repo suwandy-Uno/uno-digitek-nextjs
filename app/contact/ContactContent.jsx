@@ -29,9 +29,9 @@ export default function ContactContent() {
             <h2 className="font-heading font-bold text-navy text-3xl mb-8">{x.officeH}</h2>
             <div className="flex flex-col gap-6 mb-12">
               {[
-                { icon: '📍', label: x.labels.address,  lines: ['Citylofts Sudirman, RT.10/RW.11', 'Karet Tengsin, Tanah Abang', 'Central Jakarta City, Jakarta 10250'] },
-                { icon: '📞', label: x.labels.phone,    lines: ['+62 818 910 003'], href: 'tel:+62818910003' },
-                { icon: '✉',  label: x.labels.email,    lines: ['Suwandy@uno-digitek.com'], href: 'mailto:Suwandy@uno-digitek.com' },
+                { icon: '📍', label: x.labels.address,  lines: ['Sahid Sudirman Residence', 'Office Building 2nd Floor,', 'Jl. Jend. Sudirman Kav. 86, Karet Tengsin,', 'Tanah Abang, Jakarta Pusat, 10220'] },
+                { icon: '📞', label: x.labels.phone,    lines: ['+62 815 825 3333'], href: 'tel:+628158253333' },
+                { icon: '✉',  label: x.labels.email,    lines: ['sales@uno-digitek.com'], href: 'mailto:sales@uno-digitek.com' },
                 { icon: '🌐', label: x.labels.website,  lines: ['www.uno-digitek.com'], href: 'https://uno-digitek.com' },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
@@ -66,7 +66,7 @@ export default function ContactContent() {
           {/* Form */}
           <div>
             <h2 className="font-heading font-bold text-navy text-3xl mb-8">{x.formH}</h2>
-            <form className="flex flex-col gap-5" action="mailto:Suwandy@uno-digitek.com" method="POST" encType="text/plain">
+            <form className="flex flex-col gap-5" action="mailto:sales@uno-digitek.com" method="POST" encType="text/plain">
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-navy text-xs font-bold tracking-widest uppercase mb-2 font-body">{f.firstName}</label>

@@ -64,18 +64,19 @@ export default function Footer() {
           </h4>
           <ul className="flex flex-col gap-3 text-white/50 text-base font-body">
             <li className="leading-relaxed">
-              Citylofts Sudirman, RT.10/RW.11<br />
-              Karet Tengsin, Tanah Abang<br />
-              Central Jakarta City, Jakarta 10250
+              Sahid Sudirman Residence<br />
+              Office Building 2nd Floor,<br />
+              Jl. Jend. Sudirman Kav. 86, Karet Tengsin,<br />
+              Tanah Abang, Jakarta Pusat, 10220
             </li>
             <li>
-              <a href="tel:+62818910003" className="hover:text-gold transition-colors">
-                +62 818 910 003
+              <a href="tel:+628158253333" className="hover:text-gold transition-colors">
+                +62 815 825 3333
               </a>
             </li>
             <li>
-              <a href="mailto:Suwandy@uno-digitek.com" className="hover:text-gold transition-colors">
-                Suwandy@uno-digitek.com
+              <a href="mailto:sales@uno-digitek.com" className="hover:text-gold transition-colors">
+                sales@uno-digitek.com
               </a>
             </li>
           </ul>
