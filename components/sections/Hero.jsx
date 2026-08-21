@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLang } from '@/lib/LanguageContext';
 import t from '@/lib/translations';
 
@@ -58,21 +59,19 @@ export default function Hero() {
           </Link>
         </div>
 
-        {/* Partner badge */}
+        {/* Partner badge — Tencent Cloud logo */}
         <div className="flex items-center gap-3">
           <div className="w-px h-8 bg-gold/40" />
-          <div className="flex items-center gap-2.5">
-            <div
-              className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0"
-              style={{ background: 'linear-gradient(135deg, #1677FF, #00C6FF)' }}
-            >
-              <svg viewBox="0 0 24 24" fill="none" className="w-3.5 h-3.5">
-                <path d="M12 3C7 3 3 7 3 12s4 9 9 9 9-4 9-9-4-9-9-9z" fill="white" opacity="0.3"/>
-                <path d="M12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6z" fill="white" opacity="0.6"/>
-                <path d="M12 9c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3z" fill="white"/>
-              </svg>
-            </div>
-            <span className="text-white/55 text-xs font-bold tracking-widest uppercase font-body">
+          <div className="flex items-center gap-3">
+            <Image
+              src="/images/tencent-cloud-logo.svg"
+              alt="Official Tencent Cloud Partner"
+              width={140}
+              height={36}
+              unoptimized
+              className="opacity-80 hover:opacity-100 transition-opacity"
+            />
+            <span className="text-white/40 text-[10px] font-bold tracking-widest uppercase font-body">
               {x.partner}
             </span>
           </div>
