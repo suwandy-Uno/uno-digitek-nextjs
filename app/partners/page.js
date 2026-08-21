@@ -30,7 +30,7 @@ export default function PartnersPage() {
       {/* Gold strip */}
       <div className="bg-gold py-5 px-8">
         <p className="max-w-7xl mx-auto text-center font-heading font-bold text-navy text-sm md:text-base tracking-wide">
-          We partner selectively — choosing platforms where we can deliver measurable enterprise outcomes, not just resell licenses.
+          Our strategic technology partnerships strengthen our ability to deliver enterprise cloud, AI, and digital transformation solutions. By combining leading cloud platforms with Uno Digitek's consulting, implementation, and managed services expertise, we help organizations achieve faster innovation, stronger resilience, and measurable business outcomes.
         </p>
       </div>
 
